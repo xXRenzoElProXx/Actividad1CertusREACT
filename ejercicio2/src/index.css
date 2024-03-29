@@ -1,0 +1,22 @@
+.task-list {
+    font-family: Arial, sans-serif;
+}
+
+.task-list h2 {
+    margin-bottom: 10px;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
